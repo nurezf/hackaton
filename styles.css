@@ -89,3 +89,41 @@ font-size: 1rem;
     width: 100%;
     height: 20rem;
 }
+
+/* recipt */
+.recipt {
+    padding: 5rem;
+    font-size: 2rem;
+}
+.recipt h1 {
+    text-align: center;
+}
+.logo{
+    width: 30rem;
+    height: 20rem;
+align-self: center;
+}
+.companyLogo img{
+    width: 10rem;
+    height: 10rem;
+}
+
+.recipt ul{
+    list-style: none;
+    margin: 2rem;
+}
+
+.recipt tr:nth-child(1){
+    background-color: rgb(3, 115, 187);
+    color: #fff;
+}
+
+.recipt-footer{
+    align-items: end;
+    height: 10rem;
+    margin: 10rem;
+}
+.seal{
+    width: 10rem;
+    height: 10rem;
+}
