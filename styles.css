@@ -1,0 +1,74 @@
+html{
+    font-size: 62.5%;
+    text-transform: capitalize;
+}
+
+
+/* styles for login page  */
+
+.login{
+    height: 100vh;
+    text-align: center;
+    font-size: 2rem;
+
+}
+.login input,select{
+    margin: 0 0 1rem 0;
+    height: 4rem;
+    width: 20rem;
+}
+.login button{
+    margin: 1rem 0;
+    height: 4rem;
+    width: 10rem;
+    font-size: 2rem;
+    border-radius: 5px;
+}
+input::placeholder{
+    font-size: 2rem;
+}
+select{
+    display: block;
+ 
+    border: 1px solid #080808;
+    border-radius:2px;
+}
+select:focus{
+    border: 3px solid #afc7ee;
+    border-radius:2px;
+}
+
+option{
+font-size: 1rem;
+}
+
+
+.loginForm{
+    box-shadow: 0 0 10px grey;
+    padding: 2rem;
+    border-radius: 5px;
+    margin: 2rem;
+}
+
+/* register form  */
+
+.register{
+    height: 100vh;
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+.left-inputs{
+    margin: 2rem;
+}
+.registerForm{
+    margin:5rem auto;
+    width:fit-content;
+    padding: 2rem;
+}
+/* admin registration form */
+
+.adminForm .left-inputs{
+    margin: 0 2rem;
+}

@@ -17,12 +17,12 @@
   <body>
     <!-- register form -->
     <section class="login register">
-      <h1>administer registration form</h1>
+      <h1>seller register Form</h1>
       <form
         action=""
         method=""
-        name="aminRegister"
-        class="loginForm registerForm d-flex flex-row justify-content-center align-items-start adminForm"
+        name="registerForm"
+        class="loginForm registerForm d-flex flex-row justify-content-center"
       >
         <div class="left-inputs">
           <div class="register-input-group">
@@ -36,15 +36,49 @@
             />
           </div>
           <div class="register-input-group">
-            <label for="postion" class="form-label">postion</label>
+            <label for="TIN" class="form-label">TIN Number</label>
             <input
-              type="text"
-              id="postion"
-              name="position"
+              type="number"
+              id="TIN"
+              name="TIN"
               class="form-control"
-              placeholder="postion"
+              placeholder="TIN"
             />
           </div>
+          <div class="register-input-group">
+            <label for="bussinesSector" class="form-label"
+              >bussines sector</label
+            >
+            <input
+              type="text"
+              id="bussinesSector"
+              name="bussinesSector"
+              class="form-control"
+              placeholder="bussinesSector"
+            />
+          </div>
+          <div class="register-input-group">
+            <label for="taxType" class="form-label">tax type</label>
+            <input
+              type="text"
+              id="taxType"
+              name="taxType"
+              class="form-control"
+              placeholder="taxType"
+            />
+          </div>
+          <div class="register-input-group">
+            <label for="capital" class="form-label">capital</label>
+            <input
+              type="text"
+              id="capital"
+              name="capital"
+              class="form-control"
+              placeholder="capital"
+            />
+          </div>
+        </div>
+        <div class="right-inputs">
           <div class="register-input-group">
             <label for="email" class="form-label">email</label>
             <input
@@ -65,8 +99,6 @@
               placeholder="phonNo"
             />
           </div>
-        </div>
-        <div class="right-inputs">
           <div class="register-input-group">
             <label for="adress" class="form-label">adress</label>
             <input
