@@ -149,3 +149,22 @@ width: 100%;
 textarea::placeholder{
     font-size: 2rem;
 }
+
+/* report Table */
+.report{
+    margin: 5rem;
+    padding: 2rem;
+    font-size: 2rem;
+}
+.report h1{
+    text-align: center;
+}
+.reportTable{
+    width: 100%;
+    padding: 2rem;
+    font-size: 2rem;
+}
+.reportTable tr:nth-child(1){
+    background-color: rgb(3, 115, 187);
+    color: #fff;
+}
