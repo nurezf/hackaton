@@ -72,3 +72,20 @@ font-size: 1rem;
 .adminForm .left-inputs{
     margin: 0 2rem;
 }
+
+/* product card */
+.card {
+    margin: 2rem;
+    width: 25rem;
+    font-size: 2rem;
+    transition: all .3s;
+}
+
+.card:hover {
+    box-shadow: 0 0 50px grey;
+}
+
+.card-header img {
+    width: 100%;
+    height: 20rem;
+}
