@@ -127,3 +127,25 @@ align-self: center;
     width: 10rem;
     height: 10rem;
 }
+
+/* product register form */
+.productRegisterForm{
+    margin: 5rem auto;
+    width:40rem;
+    padding: 2rem;
+}
+
+.productRegisterForm input{
+width: 100%;
+}
+
+.productRegister .left-inputs{
+    margin: 0 2rem;
+}
+.form-control-file{
+    display: block !important;
+}
+
+textarea::placeholder{
+    font-size: 2rem;
+}
